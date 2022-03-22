@@ -1,2 +1,2 @@
 # python
-This repository is place to store my created python code when learning
+1 BeautifulSoupを利用して英検の過去問のpdfと音声源を実施年度/回ごとのフォルダ格納する
