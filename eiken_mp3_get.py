@@ -1,27 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[169]:
-
-
 import os, time, requests, urllib
 from bs4 import BeautifulSoup as bs
 
 base_url = 'https://www.eiken.or.jp'
 main_url = 'https://www.eiken.or.jp/eiken/exam/grade_1/solutions.html'
-save_dir = r'/Users/hoangkimbaotrung/Desktop/Eiken'
+save_dir = r'./Desktop/Eiken'
 
 #ダウンロードのメイン処理
 def download_mp3():
@@ -68,28 +50,3 @@ def go_download(mp3_urls):
 
 if __name__=='__main__':
     download_mp3()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
