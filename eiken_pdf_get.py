@@ -9,7 +9,7 @@ base_url = 'https://www.eiken.or.jp'
 #URLを解析
 res = urllib.request.urlopen(url)
 soup = bs(res, "html5lib")
-save_dir = r'/Users/hoangkimbaotrung/Desktop/Eiken'
+save_dir = r'./Desktop/Eiken'
 #pdfをDL用の裏URL
 target_url = []
 
